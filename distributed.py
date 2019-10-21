@@ -107,7 +107,7 @@ def main(unused_argv):
    
         sv = tf.train.Supervisor(is_chief = is_chief,
                              logdir = logdir, 
-                             init_op = init-op,
+                             init_op = init_op,
                              recovery_wait_secs = 1,
                              global_step = global_step)
     
